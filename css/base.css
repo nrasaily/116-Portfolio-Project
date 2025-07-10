@@ -1,0 +1,44 @@
+/**/
+:root {
+  --primary-color: #00635a;
+  --secondary-color: #d92525;
+  --neutral-color: #333333;
+  --background-color: #f5f8ff;
+  --primary-font: 'Dancing-Script', sans-serif;
+  --secondary-font: 'edu-Qld', sans-serif;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*general style: the style that going to apply in all elements*/
+html{
+  background-color: var(--background-color);
+  font-size: 14px;
+}
+
+
+*{font-family: var(--primary-font);
+  margin: 0px;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+}
+h1{
+  color: var(--primary-color);
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+h2{
+  color: var(--neutral-color);
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  letter-spacing: 0.06rem;
+  font-size: 1.8rem;
+}
+p{
+  color: var(--neutral-color);
+  font-size: 1.1rem;
+}
